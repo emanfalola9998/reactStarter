@@ -1,9 +1,9 @@
 // import { greet } from "./utils/greet";
 import PageHeader from "./components/PageHeader";
 import Places from "./components/Places";
-import duiblin_Picture from "/home/2202-005-ef/Developer/academy/training/academy-react-starter/src/images/dublin.jpeg";
-import barcelona_Picture from "/home/2202-005-ef/Developer/academy/training/academy-react-starter/src/images/GettyImages-1085317916_54_990x660.webp";
-import malta_picture from "/home/2202-005-ef/Developer/academy/training/academy-react-starter/src/images/blue-lagoon-malta-beaches.jpg";
+import duiblin_Picture from "/home/2202-005-ef/Developer/academy/training/academy-react-starter/src/dublin.jpeg";
+import barcelona_Picture from "/home/2202-005-ef/Developer/academy/training/academy-react-starter/src/GettyImages-1085317916_54_990x660.webp";
+import malta_picture from "/home/2202-005-ef/Developer/academy/training/academy-react-starter/src/blue-lagoon-malta-beaches.jpg";
 
 function App(): JSX.Element {
   return (
