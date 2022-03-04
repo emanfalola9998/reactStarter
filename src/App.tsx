@@ -1,12 +1,11 @@
 // import { greet } from "./utils/greet";
 import PageHeader from "./components/PageHeader";
 import Places from "./components/Places";
-import PageFooter from "./components/PageFooter"
+import PageFooter from "./components/PageFooter";
 import dublin_Picture from "./images/dublin.jpeg";
 import barcelona_Picture from "./images/GettyImages-1085317916_54_990x660.webp";
 import malta_picture from "./images/blue-lagoon-malta-beaches.jpg";
 import kavos_picture from "./images/TELEMMGLPICT000279494724_trans_NvBQzQNjv4Bq44rdSC6sTNv0-awk2LQJvkR8YSybYNWDTYrGStsI8ko.webp";
-
 
 function App(): JSX.Element {
   return (
