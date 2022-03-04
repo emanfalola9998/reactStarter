@@ -50,6 +50,7 @@ function App(): JSX.Element {
         location={"Blue lagoon, Malta"}
         info={"This is the city I visited on my 21st birthday"}
         mainImage={malta_picture}
+        />
         <Places 
           title={4}
           place={"kavos,Corfu"}
