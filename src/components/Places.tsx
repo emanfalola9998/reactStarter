@@ -2,12 +2,12 @@ interface PlacesEntryProps {
   title: number;
   place: string;
   countryName: string;
+  locationURL: string;
+  location: string;
   mainImage: string;
   descrptImage: string;
   width: number;
   height: number;
-  locationURL: string;
-  location: string;
   info: string;
 }
 
