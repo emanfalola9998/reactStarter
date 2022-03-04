@@ -4,7 +4,7 @@ import Places from "./components/Places";
 import dublin_Picture from "./images/dublin.jpeg";
 import barcelona_Picture from "./images/GettyImages-1085317916_54_990x660.webp";
 import malta_picture from "./images/blue-lagoon-malta-beaches.jpg";
-import kavos_picture from "./images/TELEMMGLPICT000279494724_trans_NvBQzQNjv4Bq44rdSC6sTNv0-awk2LQJvkR8YSybYNWDTYrGStsI8ko.webp"
+import kavos_picture from "./images/TELEMMGLPICT000279494724_trans_NvBQzQNjv4Bq44rdSC6sTNv0-awk2LQJvkR8YSybYNWDTYrGStsI8ko.webp";
 
 function App(): JSX.Element {
   return (
@@ -50,19 +50,19 @@ function App(): JSX.Element {
         location={"Blue lagoon, Malta"}
         info={"This is the city I visited on my 21st birthday"}
         mainImage={malta_picture}
-        />
-        <Places 
-          title={4}
-          place={"kavos,Corfu"}
-          countryName={"Greece"}
-          descrptImage={"Four guys walking down the main-strip of Kavos"}
-          width={1000}
-          height={400}
-          locationURL={"https://www.google.com/maps/@39.391781,20.0898939,14z"}
-          location={"Island on coastal region of Corfu"}
-          info={"First ever party Island"}
-          mainImage={kavos_picture}
-        />
+      />
+      <Places
+        title={4}
+        place={"kavos,Corfu"}
+        countryName={"Greece"}
+        descrptImage={"Four guys walking down the main-strip of Kavos"}
+        width={1000}
+        height={400}
+        locationURL={"https://www.google.com/maps/@39.391781,20.0898939,14z"}
+        location={"Island on coastal region of Corfu"}
+        info={"First ever party Island"}
+        mainImage={kavos_picture}
+      />
     </>
   );
 }
