@@ -33,25 +33,3 @@ function Places(Props: PlacesEntryProps): JSX.Element {
   );
 }
 export default Places;
-
-// a title (text)
-// a place name (text)
-// a country name (text)
-// a main image (URL)
-// a link to the rough location on google maps (or alternative) (URL)
-// some text explaining why you like the place
-
-// interface NavItemProps {
-//     label: string;
-//   }
-
-//   function NavItem(props: NavItemProps): JSX.Element {
-//     return (
-//       <>
-//         <a href="#">{props.label}</a>
-//         <span> | </span>
-//       </>
-//     );
-//   }
-
-//   export default NavItem;
