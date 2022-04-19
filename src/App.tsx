@@ -4,7 +4,6 @@ import PageFooter from "./components/PageFooter";
 import data from "./data.js";
 
 function App(): JSX.Element {
-
   return (
     <>
       <PageHeader />
